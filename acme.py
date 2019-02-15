@@ -34,11 +34,7 @@ class Product:
 class BoxingGlove(Product):
     def __init__(self, name, price=10, weight=10,
                  flammability=0.5, identifier=randint(1000000, 9999999)):
-        self.name = name
-        self.price = price
-        self.weight = weight
-        self.flammability = flammability
-        self.identifier = identifier
+        super().__init__(name, price, weight, flammability)
 
     def explode(self):
         return "...it's a glove."
