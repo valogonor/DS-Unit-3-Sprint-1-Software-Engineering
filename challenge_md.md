@@ -237,6 +237,11 @@ career here, you'll have to answer the following:
 
 Answer both of these questions (baseline ~5 sentences) here in text.
 
+- An important part of code reviews is making sure each function works as expected.
+
+- Containers help recreate the environment that a program was originally run in so that if a program worked on one person's computer,
+someone on a second computer could recreate the original computer's environment and have the program run on the second computer.
+
 ### Part 8 - Turn it in!
 
 Add all the files you wrote (`acme.py`, `acme_report.py`, and `acme_test.py`),
